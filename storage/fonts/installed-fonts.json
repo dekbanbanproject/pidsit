@@ -1,0 +1,14 @@
+{
+    "open sans": {
+        "normal": "open_sans_normal_1e0e7b388dce4c4058e352a8b0c8bb7a"
+    },
+    "kanit": {
+        "normal": "kanit_normal_17c3cca454fead41c941a1b8eb65e86f"
+    },
+    "thsarabunnew": {
+        "normal": "C:\\wamp64\\www\\pkbackoffice\\storage\\fonts\/thsarabunnew_normal_67b3b045e8dd4b39f8fc67614f7c6d3f",
+        "bold_italic": "C:\\wamp64\\www\\pkbackoffice\\storage\\fonts\/thsarabunnew_bold_italic_63a81a5afb6e425727752958d0ace86e",
+        "italic": "C:\\wamp64\\www\\pkbackoffice\\storage\\fonts\/thsarabunnew_italic_1f80524d482988fff32ae1c763b78fd9",
+        "bold": "thsarabunnew_bold_ab327b047c04e4cd1f10473ffd986882"
+    }
+}
