@@ -43,6 +43,7 @@ Route::get('fdh_mini_pullbookid', [App\Http\Controllers\ApiController::class, 'f
 // *********************** MINI DATASET ****************************************
 
 Route::match(['get','post'],'auth_mini',[App\Http\Controllers\ApiController::class, 'auth_mini'])->name('fdh.auth_mini');
+Route::match(['get','post'],'mini_pull_hos',[App\Http\Controllers\ApiController::class, 'mini_pull_hos'])->name('fdh.mini_pull_hos');
 Route::match(['get','post'],'mini_dataset_apicliam',[App\Http\Controllers\ApiController::class, 'mini_dataset_apicliam'])->name('fdh.mini_dataset_apicliam');
 Route::match(['get','post'],'mini_dataset_pulljong',[App\Http\Controllers\ApiController::class, 'mini_dataset_pulljong'])->name('fdh.mini_dataset_pulljong');
 Route::match(['get','post'],'update_authento_hos',[App\Http\Controllers\ApiController::class, 'update_authento_hos'])->name('fdh.update_authento_hos');
