@@ -960,6 +960,11 @@ class ApiController extends Controller
                      'header' => "Authorization: Basic ".base64_encode("$username:$password")
                  )
              ));
+                // $username = 'myusername';
+                // $password = 'mypassword';
+                // ...
+                // curl_setopt($ch, CURLOPT_USERPWD, $username . ":" . $password);
+                // ...
              $curl = curl_init();
              curl_setopt_array($curl, array(
                  CURLOPT_URL => 'https://fdh.moph.go.th/token?Action=get_moph_access_token&user=' . $username . '&password_hash=' . $password_hash . '&hospital_code=10978',
